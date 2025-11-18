@@ -22,3 +22,6 @@ This tool automates the creation of **Cloze Deletion English vocabulary flashcar
    git clone https://github.com/X3TU/Anki-Cloze-Deletion-Sentence-Generator.git
    cd Anki-Cloze-Deletion-Sentence-Generator
    pip install -r requirements.txt
+
+3. **Change .env.example to .env**
+   
