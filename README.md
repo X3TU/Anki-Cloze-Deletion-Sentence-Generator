@@ -24,4 +24,5 @@ This tool automates the creation of **Cloze Deletion English vocabulary flashcar
    pip install -r requirements.txt
 
 3. **Change .env.example to .env**
-   
+    Change the file .env.example to .env and type your API Key in it
+    
