@@ -142,7 +142,7 @@ def process_batch_file():
     Ana Operasyon Merkezi: Dosyayı okur, döngüyü kurar, işi bitirir.
     """
     try:
-        # encoding="utf-8" çok önemli, yoksa Türkçe karakterler bozuk çıkar.
+        # encoding="utf-8" yoksa Türkçe karakterler bozuk çıkar.
         with open(INPUT_FILE, "r", encoding="utf-8") as f:
             lines = f.readlines()
             
@@ -175,7 +175,6 @@ def process_batch_file():
             
             # Rate Limiting (Hız Sınırlama)
             # API'yi ve Anki'yi boğmamak için her işlemden sonra 1.5 saniye bekle.
-            # Bu "Mühendislik nezaketi"dir.
             time.sleep(4)
             print("-" * 40)
 
