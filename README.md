@@ -23,6 +23,6 @@ This tool automates the creation of **Cloze Deletion English vocabulary flashcar
    cd Anki-Cloze-Deletion-Sentence-Generator
    pip install -r requirements.txt
 
-3. **Change .env.example to .env**
+3. **Change .env.example to .env**\n
     Change the file .env.example to .env and type your API Key in it
     
